@@ -62,6 +62,13 @@ section[id]{scroll-margin-top:110px}
 .intro{padding:96px 0 88px}
 .statement{margin:0;max-width:30em;font-weight:300;font-size:clamp(1.3rem,2.3vw,1.8rem);line-height:1.6}
 :lang(ja) .statement{line-height:1.8}
+.track{margin-top:72px}
+.track-label{margin:0 0 8px;font-size:.85rem;font-weight:500;color:var(--muted)}
+.figures{display:grid;grid-template-columns:repeat(4,1fr);gap:0 32px;margin:0;padding:0;list-style:none;border-top:2px solid var(--ao-deep)}
+.figures li{padding-top:24px}
+.figures .num{display:block;font-weight:300;font-size:clamp(2.6rem,5vw,4rem);line-height:1.05;color:var(--ao-deep);letter-spacing:-.02em}
+.figures .num small{font-size:.38em;font-weight:500;margin-left:.15em;letter-spacing:0}
+.figures .label{display:block;margin-top:10px;color:var(--muted);font-size:.92rem;line-height:1.5}
 section{padding:104px 0}
 section.tint{background:var(--ao-pale)}
 .sec-head{margin-bottom:48px}
@@ -124,6 +131,7 @@ footer a:hover{color:#fff;text-decoration:underline}
   .intro{padding:64px 0}
   section{padding:72px 0}
   .services li,.profile{grid-template-columns:1fr}
+  .figures{grid-template-columns:1fr 1fr;gap:24px 20px}
   .info th,.info td{display:block;width:100%;padding:4px 0}
   .info th{padding-top:18px;border-bottom:none}
 }
